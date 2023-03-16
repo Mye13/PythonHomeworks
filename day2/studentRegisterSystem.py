@@ -19,7 +19,7 @@ print(ogrenciler)
 
 def multiOgrenciEkle():
     kacOgrenci = input("Lütfen kaç öğrenci ekleyeceğinizi giriniz: ") #inputtan gelen veriler string veri tipidir for döngüsünde sayaç olarak kullanabilmemiz için önce integer değere çevirmeliyiz aşağıdaki koşulda olduğu gibi.
-    for i in range(int(kacOgrenci)):
+    for i in range(int(kacOgrenci)): #Belirli bir sayıda kodla döngü yapmak için range() fonksiyonunu kullanabiliriz, range() fonksiyonu 0’dan başlayan ve 1’er artan (varsayılan olarak) ve belirtilen sayıda biten bir sayı dizisi döndürür.
         multiEkle = input("Lütfen eklemek istediğiniz öğrenci isim soyisimini giriniz: ")
         ogrenciler.append(multiEkle)
         print(ogrenciler)
