@@ -1,4 +1,4 @@
-# Öğrenci Kayıt Sistemi
+# Öğrenci Kayıt Sistemi.
 
 ogrenciler = ["Ali Akçay", "Osman Karakuş", "Ragıp Şenses"]
 print(ogrenciler)
